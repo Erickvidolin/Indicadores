@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header text-center"><h2>Indicadores da Montagem</h2></header>
+
+    <div class="container" >
+
+        <form class="mx-auto">
+            <div class="input input-group">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Data</label>
+                <input type="datetime-local" class="form-control text-center" id="inputGroupSelect01">
+            </input>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Produto</label>
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected>----</option>
+                  <option value="1">Kit Adulto</option>
+                  <option value="2">Kit Infantil</option>
+                  <option value="3">Kit Lactente</option>
+                  <option value="4">Kit Basic</option>
+                </select>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Lote</label>
+                <input type="text" class="form-control text-center" id="inputGroupSelect01">
+            </input>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Quantidade</label>
+                <input type="number" class="form-control text-center" id="inputGroupSelect01">
+            </input>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Componente</label>
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected>----</option>
+                  <option value="1">Blister Interno</option>
+                  <option value="2">Blister Externo</option>
+                  <option value="3">Tyvek Interno</option>
+                  <option value="4">Tyvek Externo</option>
+                  <option value="5">Berço de Selagem</option>
+                  <option value="6">Não Identificado</option>
+                  <option value="7">Outros</option>
+                </select>
+              </div>
+              
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Lote do componente</label>
+                <input type="text" class="form-control text-center" id="inputGroupSelect01">
+            </input>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Origem da falha</label>
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected>----</option>
+                  <option value="1">Interna IBEG</option>
+                  <option value="2">Externa Fornecedor</option>
+                </select>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Modo de falha</label>
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected>----</option>
+                  <option value="1">Sujeira Emplacada</option>
+                  <option value="2">Sujeira Passível de Remoção</option>
+                  <option value="3">Pelo/Cabelo Passível de Remoção</option>
+                  <option value="4">Danificado</option>
+                  <option value="5">Falta de Componente</option>
+                  <option value="6">Falha na Selagem</option>
+                  <option value="7">DOutros</option>
+                </select>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Descrição detalhada</label>
+                <input type="text" class="form-control text-center" id="inputGroupSelect01">
+            </input>
+              </div>
+
+              <div class="input input-group ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Origem da falha</label>
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected>----</option>
+                  <option value="1">Retrabalho</option>
+                  <option value="2">Refugo</option>
+
+                </select>
+              </div>
+
+              <div class=" input-group  ">
+                <label class="title input-group-text d-block" for="inputGroupSelect01">Responsável</label>
+                <input type="text" class="form-select text-center ml-1" id="inputGroupSelect01">
+            </input>
+              </div>
+
+              <button class="button btn w-100 text-center">Indicar retrabalho</button>
+        </form>
+
+    </div>
+
+
+
+
+    <footer class="footer " ></footer>
+    <script src="./https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
