@@ -20,7 +20,7 @@ body{
     margin-bottom: 16.5px;
     border-radius: 10px;
     padding: 10px;
-    
+    overflow: auto;
 }
 
 .title{
@@ -50,6 +50,15 @@ body{
 
 }
 
-@media screen {
+@media (min-width: 992px) { 
     
-}
+    .container{
+        height: 76.2vh;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+    }
+    
+    .input{
+        margin-bottom: 2px;
+    }
+ }
