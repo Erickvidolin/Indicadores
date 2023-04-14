@@ -2,6 +2,7 @@ body{
     background-color: black;
 }
 
+
 .header{
     display: flex;
     justify-content: center;
@@ -23,6 +24,7 @@ body{
     overflow: auto;
 }
 
+
 .title{
     width: 175px;
     font-weight: bold;
@@ -30,7 +32,7 @@ body{
 }
 
 .input{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer{
