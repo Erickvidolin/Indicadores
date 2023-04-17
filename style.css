@@ -55,12 +55,40 @@ body{
 @media (min-width: 992px) { 
     
     .container{
-        height: 76.2vh;
+        height: 76.8vh;
         margin-top: 12.5px;
         margin-bottom: 12.5px;
     }
     
     .input{
-        margin-bottom: 2px;
+        margin-bottom: 11.5px;
+    }
+ }
+
+ @media (min-width: 1020px) { 
+    
+    .container{
+        height: 77.3vh;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+        padding: 22px;
+    }
+    
+    .input{
+        margin-bottom: 20px;
+    }
+ }
+
+ @media (min-width: 1440px) { 
+    
+    .container{
+        height: 77.6vh;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+        padding: 40px;
+    }
+    
+    .input{
+        margin-bottom: 27px;
     }
  }
