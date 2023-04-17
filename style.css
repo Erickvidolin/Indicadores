@@ -4,6 +4,11 @@ body{
     height: 100vh;
 }
 
+/*.container::-webkit-scrollbar-thumb {
+    background-color: blue;    
+    border-radius: 20px;       
+    border: 3px solid orange;  
+  }*/
 
 .header{
     display: flex;
@@ -22,7 +27,7 @@ body{
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
     border-radius: 10px;
-    padding: 2vh;
+    padding: 1.8vh;
     overflow: auto;
 }
 
